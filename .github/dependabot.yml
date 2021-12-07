@@ -13,8 +13,8 @@ updates:
       - 'scope: code'
       - 'scope: deps'
     commit-message:
-      prefix: 'deps'
-      prefix-development: 'deps(dev)'
+      prefix: 'feat'
+      prefix-development: 'chore'
       include: 'scope'
 
   - package-ecosystem: github-actions
@@ -26,5 +26,5 @@ updates:
       - 'scope: inventory'
       - 'scope: deps'
     commit-message:
-      prefix: 'ci/cd: deps'
+      prefix: 'ci/cd: chore'
       include: 'scope'
