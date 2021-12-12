@@ -26,5 +26,5 @@ updates:
       - 'scope: inventory'
       - 'scope: deps'
     commit-message:
-      prefix: 'ci/cd: chore'
+      prefix: 'ci/cd'
       include: 'scope'
